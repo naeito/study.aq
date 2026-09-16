@@ -1,0 +1,31 @@
+#start,#stop,#reset,#start1,#stop1,#reset1{
+    width: 150px;
+    height: 50px;
+}
+#hour,#minute,#second{
+    width: 100px;
+    height: 40px;
+}
+#stopWatch{
+    position: relative;left: 145px;
+    font-size: 20px;
+}
+#countup,#countdown{
+    position: relative;left: 150px;
+    font-size: 40px;
+}
+#totalTime{
+    text-align: center;
+    font-size: 40px;
+}
+.subjecttime{
+    display: flex;
+    justify-content: space-around;
+}
+.subjectname{
+    display: flex;
+    justify-content: space-around;
+}
+.timerset{
+    margin: -228px 0px 50px 500px;
+}
