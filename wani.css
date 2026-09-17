@@ -51,7 +51,7 @@ h1{
 }
 @media screen and (min-width: 601px) and (max-width: 1000px ) {
     #subject{
-        width: 75px;
-        height: 20px;
+        width: 200px;
+        height: 80px;
     }
 }
