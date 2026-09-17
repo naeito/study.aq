@@ -1,3 +1,6 @@
+h1{
+    color: #333333;
+}
 #start,#stop,#reset,#start1,#stop1,#reset1{
     width: 150px;
     height: 50px;
@@ -9,28 +12,46 @@
 #stopWatch{
     position: relative;left: 145px;
     font-size: 20px;
+    color: #404040;
+}
+#timer{
+    font-size: 20px;
+    margin: 26px 0px 0px 185px;
+    color: #404040;
 }
 #countup,#countdown{
     position: relative;left: 150px;
     font-size: 40px;
+    color: #444444;
+}
+#totallabel{
+    text-align: center;
+    font-size: 20px;
 }
 #totalTime{
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 .subjecttime{
     display: flex;
     justify-content: space-around;
+    font-size: 40px;
 }
 .subjectname{
     display: flex;
     justify-content: space-around;
+    font-size: 20px;
 }
 .timerset{
-    margin: -228px 0px 50px 500px;
+    margin: -245px 0px 50px 500px;
+}
+#subject{
+    width: 100px;
+    height: 50px;
 }
 @media screen and (min-width: 601px) and (max-width: 1000px ) {
-    body{
-        background-color: aqua;
+    #subject{
+        width: 75px;
+        height: 20px;
     }
 }

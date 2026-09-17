@@ -2,12 +2,13 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>勉強時間管理アプリ</title>
    <link href="wani.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
     <h1><strong><center>勉強時間管理アプリ</center></strong></h1>
+    <p class="stopset">
     <p id="stopWatch">ストップウォッチ</p>
     <div id="countup">00:00:00</div>
     <label>教科を選択</label>
@@ -23,6 +24,7 @@
     <input id="start" type="button" value="スタート"></input>
     <input id="stop" type="button" value="ストップ"></input>
     <input id="reset" type="button" value="リセット"></input>
+</p>
     <div class="timerset">
     <p id="timer">タイマー</p>
     <p id="countdown">00:00:00</p>
@@ -33,8 +35,6 @@
     <input id="stop1" type="button" value="ストップ"></input>
     <input id="reset1" type="button" value="リセット"></input></p>
     </div>
-    <p>累計勉強時間</p>
-    <p id="totalTime">0000:00:00</p>
 <div class="subjectname">
     <div id="MN">数学</div>
     <div id="JN">国語</div>
@@ -51,6 +51,10 @@
      <div id="chemistrytime">00:00:00</div>
      <div id="geographytime">00:00:00</div>
 </div>
+<div id = "total">
+    <p id="totallabel">累計勉強時間</p>
+    <p id="totalTime">0000:00:00</p>
+    </div>
     <script src="Index.js"></script>
 </body>   
 </html>
