@@ -29,8 +29,4 @@
 .timerset{
     margin: -228px 0px 50px 500px;
 }
-@media screen and (max-width: 600px) {
-    body {
-        background-color: red;
-    }
-}
+
