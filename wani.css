@@ -59,7 +59,7 @@ h1{
         height: 80px;
     }
     #start,#stop,#reset,#start1,#stop1,#reset1{
-    width: 1px;
+    width: 170px;
     height: 75px;
 }
 #hour,#minute,#second{
