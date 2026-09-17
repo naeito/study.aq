@@ -12,7 +12,7 @@ h1{
 #stopWatch{
     position: relative;left: 145px;
     font-size: 20px;
-    color: #FFFFF1;
+    color: #404040;
 }
 #timer{
     font-size: 20px;
@@ -58,4 +58,12 @@ h1{
         width: 200px;
         height: 80px;
     }
+    #start,#stop,#reset,#start1,#stop1,#reset1{
+    width: 170px;
+    height: 75px;
+}
+#hour,#minute,#second{
+    width: 120px;
+    height: 70px;
+}
 }
