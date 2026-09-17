@@ -52,17 +52,10 @@ h1{
     width: 100px;
     height: 50px;
 }
-@media screen and (min-width: 601px) and (max-width: 1000px ) {
-     #subject{
-        width: 200px;
-        height: 80px;
+@media screen and (min-width: 601px) and (max-width: 1000px) {
+    #start {
+        width: 300px !important;
+        height: 100px !important;
+        background-color: red !important;
     }
-    #start,#stop,#reset,#start1,#stop1,#reset1{
-    width: 170px;
-    height: 1000px;
-}
-#hour,#minute,#second{
-    width: 120px;
-    height: 70px;
-}
 }
