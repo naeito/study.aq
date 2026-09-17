@@ -53,14 +53,13 @@ h1{
     height: 50px;
 }
 @media screen and (min-width: 601px) and (max-width: 1000px ) {
-  
-    #subject{
+     #subject{
         width: 200px;
         height: 80px;
     }
     #start,#stop,#reset,#start1,#stop1,#reset1{
     width: 170px;
-    height: 75px;
+    height: 1000px;
 }
 #hour,#minute,#second{
     width: 120px;
