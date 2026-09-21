@@ -52,7 +52,7 @@ h1{
     width: 100px;
     height: 50px;
 }
-@media screen and (min-width: 600px) and (max-width: 1400px) {
+@media screen and (min-width: 600px) and (max-width: 1300px) {
     #start,#stop,#reset,#start1,#stop1,#reset1 {
         width: 170px !important;
         height: 70px !important;
@@ -65,4 +65,13 @@ h1{
     width: 130px;
     height: 60px;
 }
+    #timer{
+    font-size: 20px;
+    margin: 20px 0px 0px 205px;
+    color: #404040;
+}
+    .timerset{
+    margin: -245px 0px 60px 520px;
+}
+
 }
