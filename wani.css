@@ -58,11 +58,11 @@ h1{
         height: 70px !important;
      }
     #hour,#minute,#second{
-    width: 100px;
+    width: 120px;
     height: 60px;
 }
     #subject{
-    width: 130px;
+    width: 140px;
     height: 60px;
 }
     #timer{
