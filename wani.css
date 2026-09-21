@@ -54,11 +54,11 @@ h1{
 }
 @media screen and (min-width: 600px) and (max-width: 1400px) {
     #start,#stop,#reset,#start1,#stop1,#reset1 {
-        width: 170px !important;
+        width: 150px !important;
         height: 70px !important;
      }
     #hour,#minute,#second{
-    width: 130px;
+    width: 120px;
     height: 60px;
 }
     #subject{
@@ -67,7 +67,7 @@ h1{
 }
     #timer{
     font-size: 20px;
-    margin: 10px 0px 0px 215px;
+    margin: 10px 0px 0px 205px;
     color: #404040;
 }
     .timerset{
