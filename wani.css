@@ -27,8 +27,13 @@ h1{
     height: 80px;
 }
     #stopWatch{
-    position: relative;left: 25px;
+    position: relative;left: 30px;
     font-size: 30px;
+    color: #404040;
+}
+#timer{
+    font-size: 30px;
+    margin: 0px 0px -5px 30px;
     color: #404040;
 }
 #countup,#countdown{
@@ -39,6 +44,19 @@ h1{
 #hour,#minute,#second{
     width: 100px;
     height: 60px;
+}
+.subjecttime{
+    display: inline-block;
+    font-size: 20px;
+    transform: scale();
+    justify-content: space-around;
+    margin: -100px 0px 0px 200px;
+  
+}
+.subjectname{
+    font-size: 20px;
+    transform: scale();
+    justify-content: space-around;
 }
 }
 @media screen and (min-width: 601px) and (max-width: 1200px) {
