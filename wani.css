@@ -27,13 +27,13 @@ h1{
     height: 80px;
 }
     #stopWatch{
-    position: relative;left: 40px;
+    position: relative;left: 60px;
     font-size: 30px;
     color: #404040;
 }
 #timer{
     font-size: 30px;
-    margin: -10px 0px -10px 40px;
+    margin: 10px 0px -20px 80px;
     color: #404040;
 }
 #countup,#countdown{
@@ -48,9 +48,9 @@ h1{
 .subjecttime{
     display: inline-block;
     font-size: 35px;
-    transform: scale();
+    transform: scale(1.2,1.0);
     justify-content: space-around;
-    margin: -160px 0px 0px 140px;
+    margin: -300px 0px 0px 150px;
   
 }
 .subjectname{
