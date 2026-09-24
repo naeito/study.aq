@@ -17,9 +17,6 @@ h1{
     text-align: center;
     font-size: 30px;
 }
-.timerset{
-    margin: -245px 0px 50px 500px;
-}
 #subject{
     width: 100px;
     height: 50px;
@@ -30,12 +27,12 @@ h1{
     height: 80px;
 }
     #stopWatch{
-    position: relative;left: 50px;
-    font-size: 40px;
+    position: relative;left: 25px;
+    font-size: 30px;
     color: #404040;
 }
 #countup,#countdown{
-    position: relative;left: 50px;
+    position: relative;left: 25px;
     font-size: 80px;
     color: #444444;
 }
