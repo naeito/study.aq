@@ -33,7 +33,7 @@ h1{
 }
 #timer{
     font-size: 30px;
-    margin: 10px 0px -20px 80px;
+    margin: 10px 0px -20px 100px;
     color: #404040;
 }
 #countup,#countdown{
@@ -50,7 +50,7 @@ h1{
     font-size: 35px;
     transform: scale(1.2,1.0);
     justify-content: space-around;
-    margin: -300px 0px 0px 150px;
+    margin: -350px 0px 0px 180px;
   
 }
 .subjectname{
