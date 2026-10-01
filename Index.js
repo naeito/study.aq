@@ -1,3 +1,5 @@
+console.log(window.innerWidth);
+console.log(window.innerHeight);
 //ストップウォッチ
 const time= document.getElementById('countup')
 const start= document.getElementById('start')
@@ -20,13 +22,17 @@ let Japanesetime = Number(localStorage.getItem("JT"))||0;
 let Englishtime = Number(localStorage.getItem("ET"))||0;
 let Physicstime = Number(localStorage.getItem("PT"))||0;
 let Chemistrytime = Number(localStorage.getItem("CT"))||0;
-let Geographytime = Number(localStorage.getItem("GT"))||0;
+let Biologytime = Number(localStorage.getItem("BT"))||0;
+let Geologytime = Number(localStorage.getItem("GT"))||0;
+let Socialtime = Number(localStorage.getItem("ST"))||0;
 const Mathcalculation = document.getElementById('mathtime');
 const Japanesecalculation = document.getElementById('japanesetime');
 const Englishcalculation = document.getElementById('englishtime');
 const Physicscalculation = document.getElementById('physicstime');
 const Chemistrycalculation = document.getElementById('chemistrytime');
-const Geographycalculation = document.getElementById('geographytime');
+const Biologycalculation = document.getElementById('biologytime');
+const Geologycalculation = document.getElementById('geologytime');
+const Socialcalculation = document.getElementById('socialtime');
 //
 let puldown = document.getElementById('subject');
 //現在のカウント時間
@@ -95,12 +101,19 @@ if(puldown.value =="Math"){
     Chemistrytime += stopTime;
     localStorage.setItem("CT",Chemistrytime);
      ChemistryDisplay();
-    }else if(puldown.value== "Geography"){
-    Geographytime += stopTime;
-    localStorage.setItem("GT",Geographytime);
-     GeographyDisplay();
+    }else if(puldown.value== "Biology"){
+    Biologytime += stopTime;
+    localStorage.setItem("BT",Biologytime);
+     BiologyDisplay();
+     }else if(puldown.value== "Geology"){
+    Geologytime += stopTime;
+    localStorage.setItem("GT",Geologytime);
+     GeologyDisplay();
+     }else if(puldown.value== "Social"){
+    Socialtime += stopTime;
+    localStorage.setItem("ST",Socialtime);
+     SocialDisplay();
      };
-   
     totalUpdateDisplay();
     stopTime = 0;
     startTime=0;
@@ -213,10 +226,18 @@ stop1.addEventListener('click',function(){
     Chemistrytime += uptime;
     localStorage.setItem("CT",Chemistrytime);
      ChemistryDisplay();
-     }else if(puldown.value== "Geography"){
-    Geographytime += uptime;
-    localStorage.setItem("GT",Geographytime);
-     GeographyDisplay();
+     }else if(puldown.value== "Biology"){
+    Biologytime += uptime;
+    localStorage.setItem("BT",Biologytime);
+     BiologyDisplay();
+     }else if(puldown.value== "Geology"){
+    Geologytime += uptime;
+    localStorage.setItem("GT",Geologytime);
+     GeologyDisplay();
+     }else if(puldown.value== "Social"){
+    Socialtime += uptime;
+    localStorage.setItem("ST",Socialtime);
+     SocialDisplay();
      };
     totalUpdateDisplay();
     uptime = 0;
@@ -269,10 +290,25 @@ MathDisplay();
     const sC =String(Math.floor((Chemistrytime%60000)/1000)).padStart(2,"0");
     Chemistrycalculation.textContent=`${hC}:${mC}:${sC}`;
  }
- GeographyDisplay();
- function GeographyDisplay(){
-    const hG =String(Math.floor(Geographytime/3600000)).padStart(2,"0");
-    const mG =String(Math.floor((Geographytime%3600000)/60000)).padStart(2,"0");
-    const sG =String(Math.floor((Geographytime%60000)/1000)).padStart(2,"0");
-    Geographycalculation.textContent=`${hG}:${mG}:${sG}`;
+ BiologyDisplay();
+ function BiologyDisplay(){
+    const hB =String(Math.floor(Biologytime/3600000)).padStart(2,"0");
+    const mB =String(Math.floor((Biologytime%3600000)/60000)).padStart(2,"0");
+    const sB =String(Math.floor((Biologytime%60000)/1000)).padStart(2,"0");
+    Biologycalculation.textContent=`${hB}:${mB}:${sB}`;
  }
+ GeologyDisplay();
+ function GeologyDisplay(){
+    const hG =String(Math.floor(Geologytime/3600000)).padStart(2,"0");
+    const mG =String(Math.floor((Geologytime%3600000)/60000)).padStart(2,"0");
+    const sG =String(Math.floor((Geologytime%60000)/1000)).padStart(2,"0");
+    Geologycalculation.textContent=`${hG}:${mG}:${sG}`;
+ }
+ SocialDisplay();
+ function SocialDisplay(){
+    const hS =String(Math.floor(Socialtime/3600000)).padStart(2,"0");
+    const mS =String(Math.floor((Socialtime%3600000)/60000)).padStart(2,"0");
+    const sS =String(Math.floor((Socialtime%60000)/1000)).padStart(2,"0");
+    Socialcalculation.textContent=`${hS}:${mS}:${sS}`;
+ }
+
