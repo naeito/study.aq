@@ -50,7 +50,7 @@ h1{
     font-size: 35px;
     transform: scale(1.2,1.0);
     justify-content: space-around;
-    margin: -380px 0px 0px 180px;
+    margin: -400px 0px 0px 180px;
   
 }
 .subjectname{
@@ -103,8 +103,9 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     text-align: center;
-    font-size: 45px;
+    font-size: 35px;
     row-gap: 100px;
+    margin: -10px 0px 0px 0px
 }
 
 .subjecttime {
@@ -112,10 +113,10 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
     row-gap: 100px;
     margin-top: 10px;
-    margin: -120px 0px 0px 0px
+    margin: -140px 0px 0px 0px
 }
 
 @media screen and (min-width: 1201px){
