@@ -98,17 +98,24 @@ h1{
     .timerset{
     margin: -300px 0px 100px 540px;
 }
-.subjecttime{
-    display: flex;
-    justify-content: space-around;
-    font-size: 40px;
-}
-.subjectname{
-    display: flex;
-    justify-content: space-around;
+.subjectname {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    width: 100%;
     font-size: 20px;
+    text-align: center;
 }
+
+.subjecttime {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 20px;
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
 }
+
 @media screen and (min-width: 1201px){
     #start,#stop,#reset,#start1,#stop1,#reset1{
     width: 120px;
