@@ -50,7 +50,7 @@ h1{
     font-size: 35px;
     transform: scale(1.2,1.0);
     justify-content: space-around;
-    margin: -300px 0px 0px 180px;
+    margin: -400px 0px 0px 180px;
   
 }
 .subjectname{
@@ -105,7 +105,7 @@ h1{
     text-align: center;
     font-size: 35px;
     row-gap: 100px;
-    margin: -20px 0px 0px 0px
+    margin: -40px 0px 0px 0px
 }
 .subjecttime {
     display: grid;
@@ -115,7 +115,7 @@ h1{
     font-size: 50px;
     row-gap: 100px;
     margin-top: 10px;
-    margin: -150px 0px 0px 0px
+    margin: -160px 0px 0px 0px
 }
 }
 @media screen and (min-width: 1201px){
