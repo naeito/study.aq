@@ -103,8 +103,8 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     text-align: center;
-    font-size: 20px;
-    row-gap: 20px;
+    font-size: 45px;
+    row-gap: 100px;
 }
 
 .subjecttime {
@@ -112,9 +112,10 @@ h1{
     grid-template-columns: repeat(4, 1fr);
     width: 100%;
     text-align: center;
-    font-size: 24px;
-    row-gap: 20px;
+    font-size: 40px;
+    row-gap: 100px;
     margin-top: 10px;
+    margin: -120px 0px 0px 0px
 }
 
 @media screen and (min-width: 1201px){
