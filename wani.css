@@ -48,10 +48,10 @@ h1{
 .subjecttime{
     display: flex;
     flex-direction: column;
-    font-size: 35px;
+    font-size: 45px;
     transform: scale(1.2,1.0);
     justify-content: space-around;
-    margin: -400px 0px 0px 180px;
+    margin: -410px 0px 0px 180px;
   
 }
 .subjectname{
@@ -116,7 +116,7 @@ h1{
     width: 100%;
     text-align: center;
     font-size: 50px;
-    row-gap: 50px;
+    row-gap: 60px;
     margin-top: 10px;
     margin: -140px 0px 0px 0px
 }
